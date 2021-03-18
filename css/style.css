@@ -1,0 +1,142 @@
+body {
+  background-color: #440a67;
+  font-family: "Poppins";
+}
+/* Navbar */
+.navbar {
+  height: 4rem;
+}
+.nav-item {
+  align-self: center;
+  margin-left: 10px;
+  font-weight: 500;
+}
+.nav-item:hover {
+  border-bottom: 2px solid #93329e;
+  border-bottom: 2px solid white;
+  color: #b4aee8;
+  color: white;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  font-family: "Fascinate";
+}
+.bg-dark {
+  background: transparent !important;
+}
+.bg-dark.scrolled {
+  background-color: #440a67 !important;
+  transition: background-color 200ms;
+}
+/* Header */
+.home-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.box h1 {
+  font-size: 50px;
+  color: #ffe3fe;
+  font-weight: 700;
+}
+/* About */
+.about {
+  background-color: white;
+  color: #93329e;
+}
+.about h2 {
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 60px;
+}
+.img2 {
+  width: 100%;
+}
+.about p {
+  padding: 50px;
+  margin: 20px;
+  text-align: justify;
+}
+/* Education */
+.education {
+  background-color: white;
+  color: #93329e;
+  padding-top: 80px;
+}
+.education h2,
+.education h4 {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+}
+.education h4 {
+  padding: 0;
+}
+.education .edu-box {
+  text-align: center;
+  background-color: #93329e;
+  color: #ffe3fe;
+  width: 80%;
+  display: block;
+  padding: 20px;
+  margin: 5px auto;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: inset 0 0 12px 4px #1f052285;
+}
+/* Skills */
+.skills {
+  background-color: white;
+  color: #93329e;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.skills h2 {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+}
+.skills .col-sm-4 {
+  text-align: center;
+  margin: 5px auto;
+}
+.skills p {
+  width: 80%;
+}
+/* Footer */
+.footer {
+  left: 0;
+  bottom: 0;
+  position: sticky;
+  color: white;
+}
+.social-links {
+  margin: 10px auto;
+  width: max-content;
+}
+
+.footer i {
+  color: #ffe3fe;
+  font-size: 2rem;
+  padding: 15px;
+}
+.footer i:hover {
+  cursor: pointer;
+  color: white;
+}
+.footer p {
+  text-align: center;
+}
+.footer hr {
+  border-color: inherit;
+}
